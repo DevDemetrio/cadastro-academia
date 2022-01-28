@@ -36,6 +36,7 @@ img {
 }
 */
 /**/
+
 body {
   background: url('../img/br-cadastro\ 1_vai.png');
   background-size: cover;
@@ -74,6 +75,13 @@ body {
   padding: 16px 32px 0 32px;
   margin-bottom: 4px;
 }
+
+.dados-basicos input[type='text'] {
+  padding-left: 10px;
+}
+.dados-basicos input[type='text']:focus {
+  outline: 0;
+}
 .dados-basicos input {
   width: 449px;
   height: 35px;
@@ -92,6 +100,12 @@ body {
   background: #fdfdfd;
   box-shadow: 0px 34px 20px -20px rgba(0, 0, 0, 0.4);
   border-radius: 36px;
+}
+.bg-estados input[type='text'] {
+  padding-left: 10px;
+}
+.bg-estados input[type='text']:focus {
+  outline: 0;
 }
 .bg-estados label {
   font-weight: bold;
@@ -138,6 +152,12 @@ body {
   background: #fdfdfd;
   box-shadow: 0px 34px 20px -20px rgba(0, 0, 0, 0.4);
   border-radius: 36px;
+}
+.bg-fisico input[type='text'] {
+  padding-left: 10px;
+}
+.bg-fisico input[type='text']:focus {
+  outline: 0;
 }
 .info-dados-basicos label {
   font-weight: bold;
