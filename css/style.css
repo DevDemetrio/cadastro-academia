@@ -19,18 +19,22 @@ img {
 * {
   box-sizing: border-box;
 }
-
-input {
+/*
+.organiza-label {
+  font-weight: bold;
+  color: #000000;
+  display: block;
+  padding: 16px 32px 0 32px;
+  margin-bottom: 4px;
+}
+.organiza-input {
   width: 449px;
   height: 35px;
   border: 1px solid #000000;
+  margin-left: 32px;
   padding: 0 0 4px 0;
 }
-
-label {
-  font-weight: bold;
-  color: #000000;
-}
+*/
 /**/
 body {
   background: url('../img/br-cadastro\ 1_vai.png');
@@ -55,26 +59,38 @@ body {
   font-weight: bold;
   color: #000000;
 }
-.teste1 label {
-  padding-bottom: 40px;
-}
 .dados-basicos {
   width: 513px;
   height: 165px;
   margin: 0 auto 20px auto;
-  padding: 25px 32px 27px 32px;
   background: #fdfdfd;
   box-shadow: 0px 34px 20px -20px rgba(0, 0, 0, 0.4);
   border-radius: 36px;
 }
+.dados-basicos label {
+  font-weight: bold;
+  color: #000000;
+  display: block;
+  padding: 16px 32px 0 32px;
+  margin-bottom: 4px;
+}
+.dados-basicos input {
+  width: 449px;
+  height: 35px;
+  border: 1px solid #000000;
+  margin-left: 32px;
+  padding: 0 0 4px 0;
+}
 
-/*dados de localização*/
+/*Endereço*/
 
-.estados {
+.bg-estados {
   width: 513px;
   height: 364px;
   margin: 0 auto 20px auto;
+  /*
   padding: 25px 32px 27px 32px;
+  */
   background: #fdfdfd;
   box-shadow: 0px 34px 20px -20px rgba(0, 0, 0, 0.4);
   border-radius: 36px;
@@ -87,15 +103,16 @@ body {
 }
 .estados-br {
   margin: 0 0 4px 0px;
-  padding: 4px 0 0 0;
+  padding-left: 34px;
   font-weight: bold;
+  color: #000000;
+}
+.todos-estados {
+  padding: 16px 32px 0 32px;
 }
 .info-estado {
   width: 449px;
   height: 35px;
   border: 1px solid #000000;
   font-weight: bold;
-}
-.itens-endereco {
-  margin: 16px 0 0 0;
 }
